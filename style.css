@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #000000;
+}
+.profileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innerDiv {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  width: 21%;
+  box-shadow: 2px 5px 4px 4px rgb(14, 54, 29);
+}
+
+.innerDiv img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.innerDiv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+}
+.header{
+    width: 97%;
+    justify-content: space-between;
+    height: 3vh;
+     background-color: #000000;
+     color: white;
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+   
+    
+    display: flex;
+    width: 13%;
+}
+.maindiv{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    height: 3vh;
+    
+   
+}
+.maindiv button{
+    background-color: black;
+    color: white;
+    border: 3px solid #000000;
+    background-color: #000000;
+}
+.maindiv h3{
+  background-color: black;
+}
+#searchBox{
+    margin-top: 10px;
+    margin-bottom: -15px;
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    outline: none;
+     background-color: white;
+     border: 2px solid red;
+}
+#searchButton{
+   
+
+    height: 45px;
+    width: 15%;
+    font-size: 20px;
+    margin-left: -22px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(136, 6, 6);
+}
